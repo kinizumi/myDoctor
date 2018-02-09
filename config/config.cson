@@ -1,0 +1,39 @@
+# Here you can overwrite any of the src/config.default.cson
+title: "我的智能医生"
+search:
+    types: ['posts', 'pages', 'movie']
+api:
+    baseUrl: "http://nndvd.com/cook123/wp-json"
+
+# Static metas (for SEO purpose)
+# Each page will dynamically overwrite those
+metas:
+    title: '我的智能医生'
+    description: 'Your app description'
+    themeColor: '#4e8ef7'
+    # Open graph
+    ogTitle: '我的智能医生'
+    ogType: 'website'
+    ogUrl: 'https://yourDomain.com'
+    ogImage: 'https://yourDomain.com/thumbnail.jpg'
+    ogImageWidth: 400
+    ogImageHeight: 400
+    # Twitter card
+    twitterSite: ''
+    twitterCreator: '' # e.g @julienrenaux
+
+defaultPage:
+    page: 'postsItem'
+    params:
+        year: 2015,
+        month: 11,
+        day: 20,
+        slug: 'home'
+
+admob:
+    bannerEnabled: false
+    interstitialEnabled: false
+    config:
+        publisherId: null
+        interstitialAdId: null
+        isTesting: true
